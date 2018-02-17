@@ -1,10 +1,18 @@
+import java.util.Date;
 
 public class Main {
 
+	/*
+	 * 
+	 * some docs
+	 */
 	public static void main(String[] args) {
-		System.out.println("git start".toUpperCase());
-		System.out.println("first commit".toUpperCase());
-		System.out.println("second commit".toUpperCase());
+		
+		Date d= new Date();
+		
+		System.out.println("git start".toUpperCase() + d);
+		System.out.println("first commit".toUpperCase() + d );
+		System.out.println("second commit".toUpperCase()+ d);
 	}
 	
 	public void printer(){
@@ -12,4 +20,5 @@ public class Main {
 		System.out.println("more lines-2");
 		System.out.println("more lines-3");
 	}
+	
 }
