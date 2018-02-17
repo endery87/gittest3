@@ -6,4 +6,8 @@ public class Main {
 		System.out.println("first commit".toUpperCase());
 		System.out.println("second commit".toUpperCase());
 	}
+	
+	public void printer(){
+		System.out.println("more lines");
+	}
 }
