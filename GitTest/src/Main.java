@@ -6,4 +6,8 @@ public class Main {
 		System.out.println("first commit");
 		System.out.println("second commit");
 	}
+	
+	public void printer(){
+		System.out.println("more lines");
+	}
 }
