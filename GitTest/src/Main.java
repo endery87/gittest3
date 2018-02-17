@@ -9,5 +9,7 @@ public class Main {
 	
 	public void printer(){
 		System.out.println("more lines");
+		System.out.println("more lines-2");
+		System.out.println("more lines-3");
 	}
 }
